@@ -1,5 +1,3 @@
-<script>
-
 var activeSort = "sname";
 var ascSort = true;
 var srchOpen = false;
@@ -105,4 +103,3 @@ ajax.onreadystatechange=function()
   ajax.open("GET","list.php?"+str,true);
   ajax.send();
 }
-</script>
